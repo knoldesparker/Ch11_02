@@ -4,7 +4,11 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-       
+        List<Integer> list1 = new LinkedList<>();
+        List<Integer> list2 = new LinkedList<>();
+        list1.add(1);list1.add(5);list1.add(4);list1.add(8);
+        list2.add(3);list2.add(2);list2.add(6);list2.add(7);list2.add(6);list2.add(485);
+        System.out.println(alternate(list1, list2));
     }
 
     public static List<Integer> alternate (List<Integer> list1, List<Integer> list2) {
